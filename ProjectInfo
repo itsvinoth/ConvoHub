@@ -1,0 +1,33 @@
+shortcuts :
+ 1. rfc for default structure.
+ 2. rfce 
+
+step 1 : create two folder inside the main folder -> public & sever.
+step 2 : inside the public folder create react app -> npx create-react-app chat-app.
+step 3 : then, inside server folder run the command -> npm init , then install dependencies -> npm i express mongoose nodemon socket.io bcrypt cors dotenv. 
+    Package Descriptions
+    express: A fast, unopinionated, minimalist web framework for Node.js.
+    mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js.
+    nodemon: A tool that helps develop Node.js applications by automatically restarting the node application when file changes in the directory are detected.
+    socket.io: A library that enables real-time, bidirectional and event-based communication between web clients and servers.
+    bcrypt: A library to help hash passwords.
+    cors: A package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+    dotenv: A module that loads environment variables from a .env file into process.env
+
+step 4 : inside server create a file name as "index.js" then, require needed dependencies.
+step 5 : inside the server folder, create .env file and inside the .env file write port and mongo_url ->"mongodb://localhost:27017"
+
+what is yarn?
+    "yarn" start is a command used in projects managed by the Yarn package manager,
+    particularly those created with tools like Create React App. 
+    This command is used to start the development server for your project.
+
+    >> yarn add axios styled-components react-router-dom    <- commends that to add packeges.
+
+    what each of these packages does:
+
+    axios: A promise-based HTTP client for the browser and Node.js, used for making HTTP requests.
+    styled-components: A library for writing CSS-in-JS, allowing you to style your components using tagged template literals.
+    react-router-dom: A collection of navigational components that compose declaratively with your application for routing in React applications.
+
+
